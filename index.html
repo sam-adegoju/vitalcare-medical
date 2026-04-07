@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VitalCare Medical - Premium healthcare services with compassionate care and cutting-edge medical expertise">
+    <title>VitalCare Medical | Excellence in Healthcare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="VitalCare Medical Home">
+                <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M24 4C24 4 12 14 12 26C12 32.6274 17.3726 38 24 38C30.6274 38 36 32.6274 36 26C36 14 24 4 24 4Z" fill="currentColor" fill-opacity="0.2"/>
+                    <path d="M24 14V30M16 22H32" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">VitalCare</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link active" role="menuitem" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#services" class="nav-link" role="menuitem">Services</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section" role="banner">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">&#10003;</span>
+                    <span>Trusted by 50,000+ Patients</span>
+                </div>
+                <h1 class="hero-title">
+                    Your Health, Our <span class="text-accent">Priority</span>
+                </h1>
+                <p class="hero-description">
+                    Experience world-class healthcare delivered with compassion and precision. 
+                    Our team of board-certified physicians and specialists are dedicated to 
+                    providing personalized medical care that puts your wellbeing first.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        Book Appointment
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Specialist Doctors</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Patient Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image">
+                        <img src="images/hero-doctor.jpg" alt="Professional doctor in modern healthcare facility" loading="eager">
+                    </div>
+                    <div class="floating-card card-1">
+                        <span class="card-icon">&#9829;</span>
+                        <div>
+                            <span class="card-value">72 BPM</span>
+                            <span class="card-label">Heart Rate</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <span class="card-icon">&#9733;</span>
+                        <div>
+                            <span class="card-value">4.9/5</span>
+                            <span class="card-label">Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#FFFDF9"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section" aria-labelledby="services-heading">
+        <div class="section-container">
+            <header class="section-header">
+                <span class="section-subtitle">Our Expertise</span>
+                <h2 id="services-heading" class="section-title">Comprehensive Medical Services</h2>
+                <p class="section-description">
+                    From preventive care to specialized treatments, we offer a full spectrum 
+                    of healthcare services designed to meet your unique needs.
+                </p>
+            </header>
+            
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-primary.jpg" alt="Primary care consultation" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-wrapper">
+                            <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4C24 4 12 14 12 26C12 32.6274 17.3726 38 24 38C30.6274 38 36 32.6274 36 26C36 14 24 4 24 4Z"/>
+                                <path d="M24 14V30M16 22H32"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Primary Care</h3>
+                        <p class="service-description">
+                            Comprehensive health assessments, chronic disease management, and 
+                            preventive screenings to keep you at your best throughout every stage of life.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn More
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-urgent.jpg" alt="Urgent care facility" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-wrapper">
+                            <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="24" cy="24" r="18"/>
+                                <path d="M24 14V24L30 30"/>
+                                <path d="M12 24H16M32 24H36M24 12V16M24 32V36"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Urgent Care</h3>
+                        <p class="service-description">
+                            Same-day appointments for non-life-threatening conditions with minimal 
+                            wait times and extended evening and weekend hours for your convenience.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn More
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-surgery.jpg" alt="State-of-the-art surgical suite" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-wrapper">
+                            <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 40V20C8 12 14 8 24 8C34 8 40 12 40 20V40"/>
+                                <path d="M4 40H44"/>
+                                <path d="M18 40V32C18 28 20 26 24 26C28 26 30 28 30 32V40"/>
+                                <circle cx="24" cy="18" r="4"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Specialized Surgery</h3>
+                        <p class="service-description">
+                            Minimally invasive and traditional surgical procedures performed by 
+                            fellowship-trained surgeons using state-of-the-art technology and techniques.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn More
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="images/service-tele.jpg" alt="Telemedicine consultation" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-wrapper">
+                            <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="8" y="12" width="32" height="24" rx="4"/>
+                                <path d="M16 20H20M16 28H28"/>
+                                <circle cx="34" cy="28" r="2"/>
+                                <path d="M8 18H40"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Telemedicine</h3>
+                        <p class="service-description">
+                            Virtual consultations from the comfort of your home with secure video 
+                            appointments, e-prescriptions, and remote monitoring capabilities.
+                        </p>
+                        <a href="#" class="service-link">
+                            Learn More
+                            <svg class="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Testimonials Section -->
+    <section id="testimonials" class="testimonials-section" aria-labelledby="testimonials-heading">
+        <div class="section-container">
+            <header class="section-header">
+                <span class="section-subtitle">Patient Stories</span>
+                <h2 id="testimonials-heading" class="section-title">What Our Patients Say</h2>
+                <p class="section-description">
+                    Real experiences from real patients who have trusted us with their care.
+                </p>
+            </header>
+            
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-quote-icon" aria-hidden="true">&#8220;</div>
+                    <blockquote class="testimonial-quote">
+                        The level of care I received at VitalCare was exceptional. Dr. Mitchell 
+                        took the time to listen to all my concerns and developed a treatment plan 
+                        that truly addressed my needs. I finally feel like I'm in control of my health.
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <img src="images/testimonial-1.jpg" alt="Portrait of Margaret Thompson" class="author-photo" loading="lazy">
+                        <div class="author-info">
+                            <cite class="author-name">Margaret Thompson</cite>
+                            <span class="author-title">Primary Care Patient</span>
+                        </div>
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                        </div>
+                    </footer>
+                </article>
+                
+                <article class="testimonial-card">
+                    <div class="testimonial-quote-icon" aria-hidden="true">&#8220;</div>
+                    <blockquote class="testimonial-quote">
+                        After my surgery, the follow-up care was incredible. The nursing staff 
+                        was attentive, the facilities are world-class, and my recovery was faster 
+                        than expected. I couldn't have asked for a better experience.
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <img src="images/testimonial-2.jpg" alt="Portrait of James Richardson" class="author-photo" loading="lazy">
+                        <div class="author-info">
+                            <cite class="author-name">James Richardson</cite>
+                            <span class="author-title">Surgery Patient</span>
+                        </div>
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                        </div>
+                    </footer>
+                </article>
+                
+                <article class="testimonial-card">
+                    <div class="testimonial-quote-icon" aria-hidden="true">&#8220;</div>
+                    <blockquote class="testimonial-quote">
+                        As a busy professional, the telemedicine option has been a game-changer. 
+                        I can consult with my doctor during lunch breaks without sacrificing 
+                        quality care. The technology is seamless and the doctors are just as 
+                        thorough as in-person visits.
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <img src="images/testimonial-3.jpg" alt="Portrait of Dr. Sarah Chen" class="author-photo" loading="lazy">
+                        <div class="author-info">
+                            <cite class="author-name">Dr. Sarah Chen</cite>
+                            <span class="author-title">Telemedicine Patient</span>
+                        </div>
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                            <span class="star" aria-hidden="true">&#9733;</span>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="main-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4C24 4 12 14 12 26C12 32.6274 17.3726 38 24 38C30.6274 38 36 32.6274 36 26C36 14 24 4 24 4Z" fill="currentColor" fill-opacity="0.2"/>
+                            <path d="M24 14V30M16 22H32" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                        <span>VitalCare</span>
+                    </a>
+                    <p class="footer-tagline">Excellence in healthcare, compassion in every interaction.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Primary Care</a></li>
+                            <li><a href="#">Urgent Care</a></li>
+                            <li><a href="#">Specialized Surgery</a></li>
+                            <li><a href="#">Telemedicine</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>15 Admiralty Way, Lekki Phase 1</li>
+                            <li>Lagos, Nigeria</li>
+                            <li><a href="tel:+2349033738200">+234 903 3738 200</a></li>
+                            <li><a href="mailto:info@vitalcare.com">info@vitalcare.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 VitalCare Medical. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
